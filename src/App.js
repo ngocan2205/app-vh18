@@ -1,10 +1,12 @@
-
+import List from './components/List';
 import './App.css';
 
 function App() {
   return (
     <>
-    <img src="keera.png" width={600} height={500} />
+      <List />
+      <hr />
+    <img src="keera.png" width={380} height={260} />
     <h1>Keera Mon do xao quyet</h1>
     <table border={1}>
       <tr>
